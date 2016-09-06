@@ -14,7 +14,7 @@ public class Conexion {
     public void setURL(String url){
         this.url=url;
     }
-    public void getURL(){
+    public String getURL(){
         return this.url;
     }
     
