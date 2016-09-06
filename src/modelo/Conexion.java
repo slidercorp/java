@@ -10,5 +10,12 @@ package modelo;
  * @author nelson
  */
 public class Conexion {
+    String url;
+    public void setURL(String url){
+        this.url=url;
+    }
+    public void getURL(){
+        return this.url;
+    }
     
 }
