@@ -46,8 +46,9 @@ public class Formulario extends javax.swing.JFrame {
         setTitle("Mostrar Persona");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("Mostrar Persona");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(168, 24, -1, -1));
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setText("MOSTRAR PERSONA");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, -1, -1));
 
         jLabel2.setText("Edad");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(51, 111, -1, -1));
