@@ -10,11 +10,13 @@ package modelo;
  * @author Carlos
  */
 public class Persona {
-    private String nombre;
-    private String apellido;
-    private int edad;
+    private String nombre="carlos jose";
+    private String apellido="caceres ochoa";
+    private int edad=37;
 
-    public String getNombre() {
+    
+    
+        public String getNombre() {
         return nombre;
     }
 
